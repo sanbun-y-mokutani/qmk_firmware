@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
    KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    TG(_RAISE),          KC_DEL,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
 //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                  _______, KC_SPC, KC_LCTRL,                       KC_RALT,  KC_RCTRL,   KC_ENT
+                                  _______, KC_SPC, KC_LGUI,                       KC_RALT,  KC_RGUI,   KC_ENT
                               // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
 ),
 
@@ -34,11 +34,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //┌────────┬────────┬────────┬────────┬────────┬────────┐                                 ┌────────┬────────┬────────┬────────┬────────┬────────┐
    KC_GRAVE, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                                     KC_F6,    KC_F7,   KC_F8,   KC_F9,   KC_F9,    KC_EQUAL,
 //├────────┼────────┼────────┼────────┼────────┼────────┤                                 ├────────┼────────┼────────┼────────┼────────┼────────┤
- KC_TAB,  LGUI(KC_Q),LGUI(KC_W),LGUI(KC_E),LGUI(KC_R),LGUI(KC_T),                         LGUI(KC_Y),LGUI(KC_U),KC_UP,KC_TAB,KC_LBRACKET,KC_F11,
+ KC_TAB,  LGUI(KC_Q),LGUI(KC_W),LGUI(KC_E),LCTL(KC_R),LGUI(KC_T),                         LCTL(KC_Y),LCTL(KC_U),KC_UP,KC_TAB,KC_LBRACKET,KC_F11,
 //├────────┼────────┼────────┼────────┼────────┼────────┤                                 ├────────┼────────┼────────┼────────┼────────┼────────┤
-   _______,  LGUI(KC_A),LGUI(KC_S),LGUI(KC_D),LGUI(KC_F),LGUI(KC_G),                      KC_HOME, KC_LEFT, KC_DOWN,   KC_RIGHT,   KC_RBRACKET, KC_F12,
+   _______,  LGUI(KC_A),LGUI(KC_S),LGUI(KC_D),LGUI(KC_F),LGUI(KC_G),                      LGUI(KC_LEFT), KC_LEFT, KC_DOWN,   KC_RIGHT,   KC_RBRACKET, KC_F12,
 //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-   KC_LSFT, LGUI(KC_Z), LGUI(KC_X),LGUI(KC_C),LGUI(KC_V),LGUI(KC_B),KC_CAPSLOCK,    KC_RGUI, KC_END,  KC_WWW_BACK,   _______,   KC_WWW_FORWARD,   KC_BSLASH, _______,
+   KC_LSFT, LGUI(KC_Z), LGUI(KC_X),LGUI(KC_C),LGUI(KC_V),LGUI(KC_B),KC_CAPSLOCK,    KC_RGUI, LGUI(KC_RIGHT),  KC_WWW_BACK,   _______,   KC_WWW_FORWARD,   KC_BSLASH, _______,
 //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘                └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                  _______,  KC_SPC, _______,                             KC_RALT,  _______, KC_PSCREEN
                               // └────────┴────────┴────────┘                          └────────┴────────┴────────┘
